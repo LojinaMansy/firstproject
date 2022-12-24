@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- projecr title -->
+    <title>sign in project</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normslize.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="sign-in shadow p-3 mb-5 bg-white rounded ">
+    <!-- .......dark mood button...... -->
+    <button onclick="dark()" type="button" class="btn btn-secondary light-mood">Light Mood</button>
+    <div>
+      <!-- ........return to the main page -->
+      <a href="http://127.0.0.1:5500/main.html">
+        <img src="./photos/B.png" alt="logo">
+      </a>
+    </div>
+    <!-- ...........form-inputs........... -->
+    <form>
+        <div class="mb-6">
+          <input type="email" class="form-control  input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required>
+        </div>
+        <div class="mb-6">
+          <input type="password" class="form-control  input" placeholder="Password" id="exampleInputPassword1" required> 
+          <div id="emailHelp" class="form-text forget-password">Forget Password</div>
+        </div>
+        <button type="submit" class="btn-sign-in m-2">sign in</button>
+      </form>
+    <div>
+        <h3>or sign in with</h3>
+      </div>
+      <!-- .......social media logo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <a href="">
+            <img class="facebook-logo" src="./photos/Facebook-logo.png" alt="Facebook-logo">
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="./photos/logo_googleg_48.png" alt="google-logo">
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="./photos/Twitter (1).png" alt="Twitter-logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ........main-js -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

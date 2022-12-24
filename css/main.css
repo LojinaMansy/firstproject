@@ -1,0 +1,87 @@
+/* .....global..... */
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+    height: 10000px;
+}
+
+/* ...project style.... */
+/* ...project logo..... */
+.freebie{
+    width: 797px;
+    height: 147px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+h1{
+    margin-left: 40px;
+    text-align: left;
+}
+/* ...main part... */
+h5{
+    color: #51A4FA;
+    text-align: left;
+    margin-left: 40px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+    color:black;
+    text-align: left;
+    margin-left: 40px;
+}
+.line{
+    margin-left: 40px;
+}
+.user{
+    width:136px;
+    height:136px;
+    margin-left: 40px;
+}
+/* ..second part */
+p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.try-it{
+    margin-top: 30px;
+}
+.follow{
+    margin-top: 80px;
+}
+/* .....media.... */
+@media (max-width: 991.98px) { 
+    .freebie{
+    width: 630px;
+    height: 100px;}
+    .follow{
+        margin-top:0;
+    }
+
+}
+@media (max-width: 767.98px) { 
+    .freebie{
+        width: 450px;
+        height: 90px;
+    }
+    .follow{
+        margin-top:0;
+    }
+}
+@media (max-width: 575.98px){
+    .freebie{
+        width: 300px;
+        height: 70px;
+    }
+    .try-it{
+        width: 250px;
+    } 
+    .follow{
+        margin-top:0;
+        width: 250px;
+    }
+}
